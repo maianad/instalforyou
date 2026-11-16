@@ -1,3 +1,9 @@
-# Sve stare adrese (/sto-radimo, /kontakt, /galerija...) vode na naslovnu.
-# 302 = privremeno, da Google ne zaboravi stare stranice kad se vrate.
-/*    /    302
+# Stare stranice -> naslovna (302 = privremeno)
+/kontakt.html       /    302!
+/kontakt            /    302!
+/sto-radimo.html    /    302!
+/sto-radimo         /    302!
+/InstalForYou-*     /    302!
+
+# Sve ostale nepostojeće adrese prikazuju naslovnu
+/*                  /index.html    200
