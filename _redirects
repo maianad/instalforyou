@@ -1,0 +1,3 @@
+# Sve stare adrese (/sto-radimo, /kontakt, /galerija...) vode na naslovnu.
+# 302 = privremeno, da Google ne zaboravi stare stranice kad se vrate.
+/*    /    302
